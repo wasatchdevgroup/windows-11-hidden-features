@@ -1,0 +1,13 @@
+Set-Location "C:\Path\To\Scripts"
+
+# Safe pack
+.\Enable-SafeFeatures.ps1 -ViveToolPath "C:\ViveTool\ViVeTool.exe"
+
+# Experimental pack
+.\Enable-ExperimentalFeatures.ps1 -ViveToolPath "C:\ViveTool\ViVeTool.exe"
+
+# AI pack
+.\Enable-AIFeatures.ps1 -ViveToolPath "C:\ViveTool\ViVeTool.exe"
+
+# Rollback
+.\Rollback-Features.ps1 -ViveToolPath "C:\ViveTool\ViVeTool.exe"
